@@ -1,0 +1,40 @@
+
+body {
+    margin:0;
+    background: rgb(234, 234, 234);
+}
+
+h1{
+   margin: 0 auto;
+   width: 535px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.post{
+    background-color: white ;
+    width: 400px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    padding:7px
+}
+
+.desc{
+    padding: 7px 15px 4px;
+}
+.Date{
+    margin-left: auto;
+    color:gray
+}
